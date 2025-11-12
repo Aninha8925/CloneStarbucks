@@ -1,7 +1,10 @@
 body {
     margin: 0px;
-     font-family: 'SoDo Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
 }
+
+/* COMEÇO NAV */
 
 nav {
     background-color: #ffffff;
@@ -10,6 +13,7 @@ nav {
     align-items: center;
     flex-direction: row;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 50px;
     
 }
 
@@ -21,6 +25,7 @@ nav .ladoEsquerdoNav img {
 .ladoEsquerdoNav a {
     text-decoration: none;
     color: #000;
+    font-size: 14px;
 }
 
 .ladoEsquerdoNav {
@@ -46,17 +51,6 @@ nav .ladoEsquerdoNav img {
     margin-right: 5%;
 }
 
-.ladoDireitoNav .lojas {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.lojas {
-    display: flex;
-    flex-direction: row;
-}
-
 .ladoDireitoNav a {
     display: flex;
     align-items: center;
@@ -65,12 +59,65 @@ nav .ladoEsquerdoNav img {
     color: #000;
 }
 
-.ladoDireitoNav img {
+.ladoDireitoNav #historia {
     width: 100px;
     height: 100px;
 }
 
-.ladoDireitoNav .icon {
+.ladoDireitoNav #icon {
     width: 20px;
     height: 20px;
 }
+
+/* TERMINO NAV */
+
+/* COMEÇO PARTE PRINCIPAL DA HOME */
+
+main {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 35px;
+    color: #1E3932;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .ladoImagemBanner {
+    width: 50%;
+    height: 100%;
+}
+
+.banner .ladoTextoBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color:#D4E9E2;
+}
+
+.banner h2 {
+    font-weight:lighter;
+}
+
+/* TERMINO PARTE PRINCIPAL DA HOME */
+
+/* COMEÇO FOOTER */
+
+

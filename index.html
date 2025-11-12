@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks Coffee Company - Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/starbucks-nav-logo.ico" type="image/x-icon">
 </head>
 <body>
     
@@ -17,31 +18,81 @@
         </a>
 
         <ul>
-            <li><a href="menu.html">menu</a></li>
-            <li><a href="nossocafe.html">nosso café</a></li>
-            <li><a href="impacto.html">impacto social</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="nossocafe.html">NOSSO CAFÉ</a></li>
+            <li><a href="impacto.html">IMPACTO SOCIAL</a></li>
         </ul>
 
         </section>
 
         <section class="ladoDireitoNav">
 
+            <!-- tirar essas pags oficiais no href e eu mesma fazer (adicionar API de maps e tals) -->
+
             <a href="https://historias.starbucks.com/br/">
-            <img src="img/sb-historias-logo.svg" alt="">
+            <img id="historia" src="img/sb-historias-logo.svg" alt="">
             </a>
 
             <a href="https://www.starbucks.com.br/lojas">
-            <section class="lojas">
-                
-            <img class="icon" src="img/pin-de-localizacao.png" alt="">
+            <img id="icon" src="img/pin-de-localizacao.png" alt="">
              <p>Encontre uma loja</p>
             </a>
            
         </section>
-
-
-
     </nav>
+
+    <main>
+
+        <section class="banner">
+
+            <div class="ladoTextoBanner">
+                <h2>Uma surpresa refrescante para você</h2>
+
+                <p>Conheça nossa linha de <strong>Cold Brew e Refreshers</strong></p>
+
+                <button>Saiba mais</button>
+            </div>
+
+            <div class="ladoImagemBanner">
+                <img src="img/banner1.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="banner">
+
+            <div class="ladoImagemBanner">
+                <img src="img/banner2.jpg" alt="">
+            </div>
+
+            <div class="ladoTextoBanner">
+                <h2>Coisas boas estão acontecendo</h2>
+
+                <p>Acreditamos que podemos e devemos gerar um impacto positivo nas comunidades em que atuamos.</p>
+
+                <button>Saiba mais</button>
+                
+            </div>
+
+        </section>
+
+        <section class="banner">
+
+            <div class="ladoTextoBanner">
+                <h2>Histórias e Notícias Starbucks</h2>
+
+                <p>Fique por dentro das novidades e conheça mais sobre nossas iniciativas.</p>
+
+                <button>Saiba mais</button>
+            </div>
+
+            <div class="ladoImagemBanner">
+                <img src="img/banner3.jpg" alt="">
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 </html>
