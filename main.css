@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+     font-family: 'SoDo Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+nav .ladoEsquerdoNav img {
+    width: 60px;
+    height: 60px;
+}
+
+.ladoEsquerdoNav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ladoEsquerdoNav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-left: 5%;
+    
+}
+
+.ladoEsquerdoNav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+}
+
+.ladoDireitoNav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 5%;
+}
+
+.ladoDireitoNav .lojas {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lojas {
+    display: flex;
+    flex-direction: row;
+}
+
+.ladoDireitoNav a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.ladoDireitoNav img {
+    width: 100px;
+    height: 100px;
+}
+
+.ladoDireitoNav .icon {
+    width: 20px;
+    height: 20px;
+}
